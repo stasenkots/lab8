@@ -1,20 +1,33 @@
-package Planes;
+package planes;
 
 import java.util.Objects;
 
 abstract public class Plane {
-    String model;
+    protected String model;
     private int maxSpeed;
     private int maxFlightDistance;
     private int maxLoadCapacity;
 
-    public Plane(String model,
-                 int maxSpeed,
-                 int maxFlightDistance,
-                 int maxLoadCapacity) {
+    public Plane(String model, int maxSpeed, int maxFlightDistance, int maxLoadCapacity) {
         this.model = model;
         this.maxSpeed = maxSpeed;
         this.maxFlightDistance = maxFlightDistance;
+        this.maxLoadCapacity = maxLoadCapacity;
+    }
+
+    public void setModel(String model) {
+        this.model = model;
+    }
+
+    public void setMaxSpeed(int maxSpeed) {
+        this.maxSpeed = maxSpeed;
+    }
+
+    public void setMaxFlightDistance(int maxFlightDistance) {
+        this.maxFlightDistance = maxFlightDistance;
+    }
+
+    public void setMaxLoadCapacity(int maxLoadCapacity) {
         this.maxLoadCapacity = maxLoadCapacity;
     }
 
@@ -30,18 +43,8 @@ abstract public class Plane {
         return maxFlightDistance;
     }
 
-    public int getMaxloadcapacity() {
-        return this.maxLoadCapacity;
-    }
-
-    @Override
-    public String toString() {
-        return "Plane{" +
-                "model='" + model + '\'' +
-                ", maxSpeed=" + maxSpeed +
-                ", maxFlightDistance=" + maxFlightDistance +
-                ", maxLoadCapacity=" + maxLoadCapacity +
-                '}';
+    public int getMaxLoadCapacity() {
+        return maxLoadCapacity;
     }
 
     @Override
@@ -58,5 +61,15 @@ abstract public class Plane {
     @Override
     public int hashCode() {
         return Objects.hash(model, maxSpeed, maxFlightDistance, maxLoadCapacity);
+    }
+
+    @Override
+    public String toString() {
+        return "Plane{" +
+                "model='" + model + '\'' +
+                ", maxSpeed=" + maxSpeed +
+                ", maxFlightDistance=" + maxFlightDistance +
+                ", maxLoadCapacity=" + maxLoadCapacity +
+                '}';
     }
 }
