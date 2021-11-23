@@ -1,36 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="c461ea7a-516f-4da0-8118-2288b52203d1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SkyscannerHotelPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SkyscannerHotelPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SkyscannerHotelButtonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SkyscannerHotelButtonTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SkyscannerHomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SkyscannerHomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SkyscannerHotelPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SkyscannerHotelPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/SkyscannerHotelButtonTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SkyscannerHotelButtonTest.class" afterDir="false" />
-    </list>
+    <list default="true" id="133d3772-459c-4cf3-b627-dbaf1e2c567a" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
-  </component>
-  <component name="ProjectId" id="21JfuPHyL9arHRGQvmkMPtSjEu1" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="21Jhi4YD2rxy84CkJF18fzNOaoA" />
   <component name="ProjectViewState">
     <option name="foldersAlwaysOnTop" value="false" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -61,11 +38,10 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c461ea7a-516f-4da0-8118-2288b52203d1" name="Changes" comment="" />
-      <created>1637664333218</created>
+      <created>1637665222042</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1637664333218</updated>
+      <updated>1637665222042</updated>
     </task>
     <servers />
   </component>
