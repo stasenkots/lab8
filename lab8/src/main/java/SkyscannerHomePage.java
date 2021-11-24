@@ -7,7 +7,7 @@ public class SkyscannerHomePage {
     private WebDriver driver;
     private String HOMEPAGE_URL = "https://www.skyscanner.ru";
 
-    @FindBy(xpath = "//*[@id='skhot']/span")
+    @FindBy(xpath = "//*[@id='skhot']")
     private WebElement hotelButton;
 
     public SkyscannerHomePage(WebDriver driver) {
