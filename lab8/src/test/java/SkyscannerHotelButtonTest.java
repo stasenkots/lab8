@@ -30,8 +30,8 @@ public class SkyscannerHotelButtonTest {
         Assert.assertEquals(homePage.getCurrentUrl(), hotelPage.getCurrentUrl());
     }
 
-    @AfterMethod(alwaysRun = true)
-    public void closeBrowser(){
-        driver.quit();
-    }
+//    @AfterMethod(alwaysRun = true)
+//    public void closeBrowser(){
+//        driver.quit();
+//    }
 }
