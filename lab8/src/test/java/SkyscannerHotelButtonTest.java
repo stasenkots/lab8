@@ -31,8 +31,7 @@ public class SkyscannerHotelButtonTest {
     }
 
     @AfterMethod(alwaysRun = true)
-    public void browserTearDown(){
+    public void closeBrowser(){
         driver.quit();
-        //driver = null;
     }
 }
