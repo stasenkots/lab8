@@ -19,7 +19,7 @@ public class SkyscannerHotelButtonTest {
     public void browserSetup() {
 //        System.setProperty("webdriver.chrome.driver", "/usr/lib/chromium-browser/chromedriver");
         ChromeOptions options = new ChromeOptions();
-       // options.addArguments("--headless", "--no-sandbox", "--disable-dev-shm-usage");
+        options.addArguments("--headless", "--no-sandbox", "--disable-dev-shm-usage");
         driver = new ChromeDriver(options);
     }
 
