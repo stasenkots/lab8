@@ -1,4 +1,5 @@
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.safari.SafariDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
@@ -10,7 +11,7 @@ public class SkyscannerHotelButtonTest {
 
     @BeforeTest (alwaysRun = true)
     public void browserSetup(){
-        driver = new SafariDriver();
+        driver = new ChromeDriver();
     }
 
     @Test
