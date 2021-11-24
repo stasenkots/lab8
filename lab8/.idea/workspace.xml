@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="133d3772-459c-4cf3-b627-dbaf1e2c567a" name="Changes" comment="" />
+    <list default="true" id="133d3772-459c-4cf3-b627-dbaf1e2c567a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,7 +37,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.SkyscannerHotelButtonTest.goToTheHotelPage">
     <configuration name="SkyscannerHotelButtonTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="lab8" />
       <option name="PACKAGE_NAME" value="" />
@@ -47,8 +49,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SkyscannerHotelButtonTest.goToTheHotelPage" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="lab8" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SkyscannerHotelButtonTest" />
+      <option name="METHOD_NAME" value="goToTheHotelPage" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.SkyscannerHotelButtonTest.goToTheHotelPage" />
         <item itemvalue="TestNG.SkyscannerHotelButtonTest" />
       </list>
     </recent_temporary>
